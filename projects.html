@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected robotics, manufacturing, and product design projects by Yuxuan Huang.">
+  <title>Projects | Yuxuan Huang</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="projects-page">
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">YH</span><span>ENGINEERING<br>PORTFOLIO</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">MENU</button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a class="active" href="projects.html">Projects</a><a href="experience.html">Experience</a>
+      <a class="nav-cta contact-trigger" href="#contact-card">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <header class="page-intro title-panel shell reveal">
+      <p class="eyebrow">01 / PROJECT EXPERIENCE</p>
+      <h1>Built to<br><em>perform.</em></h1>
+      <p>Three systems developed through mechanical design, control, fabrication, and experimental validation.</p>
+    </header>
+
+    <nav class="project-jump shell" aria-label="Project list">
+      <a href="#quadruped"><span>01</span>Quadruped Robot</a>
+      <a href="#ecm"><span>02</span>ECM System</a>
+      <a href="#caster"><span>03</span>Caster Wheel</a>
+    </nav>
+
+    <section class="project-detail shell" id="quadruped">
+      <div class="project-heading reveal">
+        <div><p class="eyebrow">ROBOTICS / CONTROLS · 2025</p><h2>Quadruped<br>Robot System</h2></div>
+        <p>Designed, fabricated, and validated a servo-driven quadruped robot. Implemented manual and reinforcement-learning gait strategies, real-time servo control, and feedback protection for stable locomotion.</p>
+      </div>
+      <div class="media-layout reveal">
+        <figure class="video-frame">
+          <a class="video-link" href="https://www.youtube.com/watch?v=aEup_hopHnc" target="_blank" rel="noopener noreferrer" aria-label="Watch the quadruped robot journey film on YouTube">
+            <img src="assets/quadruped-robot.jpg" alt="Quadruped robot journey film cover">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <span class="video-watch">CLICK TO WATCH <b>↗</b></span>
+          </a>
+          <figcaption><span>JOURNEY FILM</span><span>DESIGN / BUILD / TEST</span></figcaption>
+        </figure>
+        <figure><img src="assets/quadruped-robot.jpg" alt="Assembled quadruped robot prototype"><figcaption><span>SYSTEM ASSEMBLY</span><span>01</span></figcaption></figure>
+        <figure><img src="assets/quadruped-leg-detail.jpg" alt="Servo-driven quadruped leg module"><figcaption><span>LEG MODULE</span><span>02</span></figcaption></figure>
+      </div>
+      <div class="project-facts reveal">
+        <div><span>ROLE</span>Robotics Engineer</div><div><span>METHODS</span>Gait generation / RL / PID</div><div><span>BUILD</span>Servo actuation / 3D printing</div><div><span>OUTCOME</span><strong>Stable gait</strong><small>Travel speed: 25 cm/s</small></div>
+      </div>
+    </section>
+
+    <section class="project-detail shell" id="ecm">
+      <div class="project-heading reveal">
+        <div><p class="eyebrow">MANUFACTURING / MOTION · 2025</p><h2>Electrochemical<br>Machining System</h2></div>
+        <p>Designed and built a benchtop electrochemical machining system for precision metal removal. Developed a functional prototype and evaluated motion control, tool positioning, and process stability through experimental trials.</p>
+      </div>
+      <div class="ecm-media-layout reveal" aria-label="ECM system design and prototype gallery">
+        <figure class="ecm-main"><img src="assets/ecm-cad-prototype.png" alt="ECM system CAD design beside the fabricated prototype"><figcaption><span>CAD / PROTOTYPE</span><span>01</span></figcaption></figure>
+        <figure class="ecm-detail"><img src="assets/ecm-machining-detail.png" alt="Close-up of the electrochemical machining tool and metal workpiece"><figcaption><span>MACHINING DETAIL</span><span>02</span></figcaption></figure>
+        <figure class="ecm-final"><img src="assets/ecm-final-workpieces.png" alt="Finished ECM metal workpieces showing the machined features"><figcaption><span>FINAL WORKPIECES</span><span>03</span></figcaption></figure>
+      </div>
+      <div class="project-facts reveal"><div><span>ROLE</span>Motion System Designer</div><div><span>FOCUS</span>Precision material removal</div><div><span>METHODS</span>Positioning / process testing</div><div><span>OUTCOME</span><strong>Stable removal rate</strong><small>Repeatable precision across operations</small></div></div>
+    </section>
+
+    <section class="project-detail shell" id="caster">
+      <div class="project-heading reveal">
+        <div><p class="eyebrow">PRODUCT DESIGN · 2023</p><h2>Motorized Caster<br>Wheel Module</h2></div>
+        <p>Developed an auxiliary mobility module for logistics carts to reduce manual handling. Benchmarked steering systems and fabricated a working prototype using sheet-metal parts and 3D-printed components.</p>
+      </div>
+      <div class="caster-media-layout reveal" aria-label="Motorized caster wheel prototype gallery">
+        <figure class="caster-main"><img src="assets/caster-wheel-prototype-angle.jpg" alt="Motorized caster wheel prototype installed beneath the logistics cart frame"><figcaption><span>FULL PROTOTYPE</span><span>01</span></figcaption></figure>
+        <figure><img src="assets/caster-wheel-prototype-front.jpg" alt="Front view of the logistics cart with two motorized caster wheel modules"><figcaption><span>DRIVE MODULES</span><span>02</span></figcaption></figure>
+      </div>
+      <div class="project-facts reveal"><div><span>ROLE</span>Mechanical Product Designer</div><div><span>FOCUS</span>Logistics cart mobility</div><div><span>BUILD</span>Sheet metal / 3D printing</div><div><span>OUTCOME</span><strong>Complete subsystem prototype</strong><small>Ready for simulation-based testing</small></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell"><p>Yuxuan Huang<br><span>Mechanical Engineer & Roboticist</span></p><div class="footer-links"><a href="index.html">Home</a><a href="experience.html">Next: Experience →</a></div><p class="footer-location">New York, NY</p></footer>
+  <dialog class="contact-dialog" id="contact-card" aria-labelledby="contact-title">
+    <button class="contact-close" type="button" aria-label="Close contact card">CLOSE ×</button><p class="contact-label">CONTACT / YUXUAN HUANG</p><h2 id="contact-title">Let's connect.</h2>
+    <div class="contact-options"><a href="tel:+15189618858"><span>PHONE</span><strong>+1 (518) 961-8858</strong><b>↗</b></a><a href="mailto:yh3924@columbia.edu"><span>EMAIL</span><strong>yh3924@columbia.edu</strong><b>↗</b></a><a href="https://www.linkedin.com/in/yuxuan-huang-7590362ab" target="_blank" rel="noreferrer"><span>LINKEDIN</span><strong>View profile</strong><b>↗</b></a></div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
