@@ -87,7 +87,7 @@ yuxuan-portfolio/
 - Three-page information architecture and cross-page navigation
 - Responsive desktop, tablet, and mobile layouts
 - Consistent portfolio branding and page-specific title panels
-- Home biography, education, technical skills, email, phone, location, and LinkedIn content
+- Home biography, education, technical skills, email, location, and LinkedIn content
 - Three project summaries with roles, methods, build details, and outcomes
 - Quadruped image/video presentation
 - ECM image gallery
@@ -135,7 +135,6 @@ Internal destinations:
 External/contact destinations:
 
 - Email: `mailto:yh3924@columbia.edu`
-- Phone: `tel:+15189618858`
 - LinkedIn: `https://www.linkedin.com/in/yuxuan-huang-7590362ab`
 - Publication: `https://doi.org/10.1117/12.3062051`
 - Quadruped video: `https://www.youtube.com/watch?v=aEup_hopHnc`
@@ -170,7 +169,7 @@ There are no analytics, forms, databases, APIs, cookies, authentication flows, o
 - PNG assets, especially `ecm-final-workpieces.png`, can be optimized or converted to modern formats
 - No specified image `width`/`height`, responsive `srcset`, or lazy-loading attributes
 - No preload strategy for critical assets; the large video correctly uses `preload="metadata"`
-- Public phone number and email appear in page source; confirm that this exposure is intentional
+- Public email appears in page source; the phone number remains inside the downloadable resume PDF only
 - The site has not yet been checked in a deployed HTTPS environment or across the target browser/device matrix
 
 ## 7. Recommended Next Steps
